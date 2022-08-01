@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research Overview</title>
+</head>
+<body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-146867573-1");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">About</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="biography.html">Biography</a></div>
+<div class="menu-item"><a href="aboutme.html">Personal</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="research.html" class="current">Overview</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="student-opportunities.html">Student&nbsp;Opportunities</a></div>
+<div class="menu-category">Links</div>
+<div class="menu-item"><a href="recent.html">Overview</a></div>
+<div class="menu-category">Teaching</div>
+<div class="menu-item"><a href="teaching-past.html">Overview</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research Overview</h1>
+</div>
+<p>Vikram's research interests spans from the large-scale machine learning and graph applications to the system architecture and programming of emerging processors and memory technologies. 
+Currently, he is exploring ways to mitigate the limits of memory capacity and memory bandwidth in the GPUs and near-memory/storage accelerators.</p>
+<p>At a 1000-foot level, his current work can be classified into following thrust areas:</p>
+<dl>
+<dt><b>Thrust #1: Hardware and System Stack Design for large memory applications</b></dt>
+<dd><p>
+In this thrust we explore the required changes needed in the computing stack (architecture, compilers and OS) to enable big memory applications such as the GPU enhanced data analytics pipeline, recommendation systems, graph analytics, and deep learning applications. These applications exhibit massive parallelism and require a large pool of memory for efficient execution at scale. To this end, we are exploring ways to integrate non-volatile memories such as 3DX-point and Flash to the current computing stack. 
+Some published papers in this area are: <a href="publications/paper/paper-flatflash-asplos19.pdf">FlatFlash</a>, <a href="publications/paper/paper-deepstore-micro19.pdf">DeepStore</a> <a href="publications/paper/paper-emogi-arxiv.pdf">EMOGI</a></p></dd>
+</dl>
+<dl>
+<dt><b>Thrust #2: Software and Algorithm Design</b></dt>
+<dd><p>
+Here, we explore the software architecture changes that requires to be done to enable big memory applications efficiently. Some of the topics that we explore include efficient caching mechanism for emerging deep learning based queries, data layout schemes, compression algorithms, graph analytics algorithm and also automatic model parallelism for faster training in large NLP models. Some published papers in this area are: <a href="publications/paper/paper-deepstore-micro19.pdf">DeepStore</a>, <a href="https://ieeexplore.ieee.org/document/8547517">GraphChallenge</a> <a href="publications/paper/paper-sparsednn-arxiv.pdf">SparseDNN</a></p></dd>
+</dl>
+<dl>
+<dt><b>Thrust #2: Profiling tools</b></dt>
+<dd><p>
+Building efficient hardware and software stack requires in-depth understanding of the application behavior and this can be done with the help of profiling tools. To this end, my research deals with building tools for profiling large memory applications. </p></dd>
+</dl>
+</td>
+</tr>
+</table>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146867573-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
